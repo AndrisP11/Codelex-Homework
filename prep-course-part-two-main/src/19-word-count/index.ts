@@ -10,12 +10,9 @@
  */
 
 class Words {
-  obj = {};
+  obj: object = {};
  
-constructor(obj:object){
-this.obj = obj
 
-}
 count(str: string) {
 
   this.obj = str.trim().toLowerCase().replace("\t"," ").replace("\n"," ")

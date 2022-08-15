@@ -30,9 +30,8 @@
 class PhoneNumber {
   input:string="";
   inputArr:string[] = [];
-  constructor(input: string,inputArr:string[]) {
+  constructor(input: string) {
     this.input = input;
-    this.inputArr =inputArr;
   }
 
   number() {

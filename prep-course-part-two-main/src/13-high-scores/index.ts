@@ -6,10 +6,10 @@
 
 class HighScores {
   scores: number[];
-  perBest:number[];
-  constructor(scores: number[],perBest:number[]) {
+  perBest:number[] = [];
+  constructor(scores: number[]) {
     this.scores = scores;
-    this.perBest = perBest;
+    
   }
 
   get latest() {
