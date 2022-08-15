@@ -24,6 +24,10 @@ interface Book {
   title: string;
   author: string;
 }
+/*type Book = {
+  title: string;
+  author: string;
+}*/
 const getTheTitles= (books: Book[]): string[] => {
   return books.map((book) => {return book.title})};
 
